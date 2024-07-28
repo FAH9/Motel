@@ -1,0 +1,136 @@
+html , body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "helvetica";
+}
+
+header {
+    background-color: whitesmoke;
+}
+.holder {
+    display: flex;
+    width: 1050px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.logo , .links{
+    flex: 6
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    justify-items: start;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links ul li {
+    flex: 1;
+    text-align: right;
+    list-style-type: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+}
+
+.links {
+    justify-content: end;
+}
+
+.holdBanner {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.banner {
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.banner , .image{
+    flex: 1;
+}
+
+.image {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background: #000;
+}
+
+.image img{
+    float: right;
+}
+.writings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #AB7A5F;
+}
+
+.hold-writings p {
+    width: 90%;
+}
+
+.missions {
+    background: #EADED7;
+    margin-top: 5rem;
+}
+
+.inside-missions , .mission-vision , .inside-news  {
+    width: 1050px;
+    margin: 0 auto;    
+    display: flex;
+}
+
+.furniture {
+    flex: 1
+}
+
+.furniture-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-vision {
+    position: relative;
+    top: 35px;
+    gap: 20px;
+}
+.mission-vision .box {
+    padding: 1rem;
+    background-color: #C5A491;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 10rem;
+    background: #222222;
+}
+
+.footer p {
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+.white-text {
+    color: white 
+}
